@@ -1,11 +1,11 @@
 # zlrc
-zlrc是一款基于[ZonyLrcTools](https://github.com/real-zony/ZonyLrcToolsX)的歌词下载工具，参考了该项目的部分核心源码。
+zlrc是一款基于[ZonyLrcTools](https://github.com/jjzhang166/ZonyLrcTools)的歌词下载工具，参考了该项目的部分核心源码。
 
-Lylic CLI downloader base on [ZonyLrcTools](https://github.com/real-zony/ZonyLrcToolsX). Refer to some of the core source code of the project.
+Lylic CLI downloader base on [ZonyLrcTools](https://github.com/jjzhang166/ZonyLrcTools). Refer to some of the core source code of the project.
 
 
 
-## 依赖项 dependent
+## 依赖项 Equipments
 
 - .NET Framework 4.8
 
@@ -21,7 +21,7 @@ Lylic CLI downloader base on [ZonyLrcTools](https://github.com/real-zony/ZonyLrc
 
 拖放歌曲文件到`zlrc.exe`即可，支持多文件。
 
-
+---
 
 Only Windows OS (≥win7) supported.
 
@@ -29,7 +29,7 @@ Drag and drop the song file to `zlrc.exe`, which supports multiple files.
 
 
 
-## 发行 Release
+## 下载 Download
 
 通过[链接](https://github.com/emako/zlrc/releases)可以获取工具。
 
@@ -37,11 +37,19 @@ Drag and drop the song file to `zlrc.exe`, which supports multiple files.
 
 单文件版是由.NET Reactor6.5合并所有DLL而得，参考zlrc.nrproj。
 
-
+---
 
 Via [link](https://github.com/emako/zlrc/releases)Tools are available.
 
 ※ the tool provides a single file version. If it is alarmed by anti-virus software, it can be added to the white list or directly use another version.
 
 The single file version is obtained by merging all DLLs in. Net reactor 6.5. Refer to zlrc.nrproj.
+
+
+
+## 许可证 License
+
+zlrc基于 [MIT](https://github.com/emako/zlrc/blob/main/LICENSE) 许可证。
+
+zlrc is licensed under the [MIT](https://github.com/emako/zlrc/blob/main/LICENSE) License.
 
