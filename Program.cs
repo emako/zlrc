@@ -81,7 +81,15 @@ namespace ZonyLrcTools
 
                             Console.WriteLine($"[{i}] File '{args[i]}' tag is title={musicInfo?.Name}, artist={musicInfo?.Artist}.");
                             Task<LyricItemCollection> result = downloader.DownloadAsync(musicInfo);
-                            byte[] lrc = Encoding.UTF8.GetBytes(result.Result.ToString());
+
+                            string lrcStr = result.Result.ToString();
+
+                            if (lrcStr.Split('\n').Length <= 3)
+                            {
+                                continue;
+                            }
+
+                            byte[] lrc = Encoding.UTF8.GetBytes(lrcStr);
 
                             if (lrc.Length > 0)
                             {
