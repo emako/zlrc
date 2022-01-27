@@ -1,17 +1,7 @@
-# zlrc
+# <img src="zlrc.png" width = "64" height = "40" alt="" align="left" /> zlrc
 zlrc是一款基于[ZonyLrcTools](https://github.com/jjzhang166/ZonyLrcTools)的歌词下载工具，参考了该项目的部分核心源码。
 
 Lylic CLI downloader base on [ZonyLrcTools](https://github.com/jjzhang166/ZonyLrcTools). Refer to some of the core source code of the project.
-
-
-
-## 依赖项 Equipments
-
-- .NET Framework 4.8
-
-- 其他依赖项参考`packages` 文件夹。
-
-  Other dependencies refer to the `packages` folder.
 
 
 
