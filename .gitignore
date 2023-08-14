@@ -1,6 +1,1 @@
-*.7z
-*.exe
-obj/*
-bin/*
-.vs/*
-Properties/launchSettings.json
+.vs/

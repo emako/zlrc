@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyDescription("Lylic CLI downloader base on ZonyLrcTools")]
-[assembly: AssemblyCopyright("Copyright © emako 2021")]
+[assembly: AssemblyCopyright("Copyright © emako 2021-2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
